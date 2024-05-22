@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Awesome Calculator</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body class="flex justify-center items-center h-screen bg-[#191919]">
+    <div
+      class="w-96 min-h-[600px] border-2 bg-[#222222] shadow-2xl rounded-lg overflow-hidden"
+    >
+      <input
+        id="result"
+        readonly
+        name="result"
+        value="0"
+        class="bg-transparent py-16 h-44 w-full text-white px-2 text-right text-4xl"
+      />
+
+      <!-- number -->
+      <div class="h-fit w-full bg-gray-200 p-2 space-y-3">
+        <div class="grid grid-cols-4 gap-4">
+          <!-- ! Row 01 -->
+          <button
+            id="button"
+            class="p-6 drop-shadow-lg bg-gray-900 text-white uppercase font-medium text-lg font-sans rounded-lg"
+          >
+            on
+          </button>
+          <button
+            id="button"
+            class="p-6 drop-shadow-lg bg-gray-900 text-white uppercase font-medium text-lg font-sans rounded-lg"
+          >
+            off
+          </button>
+          <button
+            id="button"
+            class="p-6 drop-shadow-lg bg-gray-900 text-white uppercase font-medium text-lg font-sans rounded-lg"
+          >
+            Del
+          </button>
+          <button
+            id="button"
+            class="p-6 drop-shadow-lg bg-gray-900 text-white uppercase font-medium text-xl font-sans rounded-lg"
+          >
+            AC
+          </button>
+        </div>
+        <!-- ! Row 02 -->
+        <div class="grid grid-cols-4 gap-4">
+          <button
+            id="button"
+            class="p-6 drop-shadow-lg bg-white text-[#191919] uppercase font-medium text-xl font-sans rounded-lg"
+          >
+            7
+          </button>
+          <button
+            id="button"
+            class="p-6 drop-shadow-lg bg-white text-[#191919] uppercase font-medium text-xl font-sans rounded-lg"
+          >
+            8
+          </button>
+          <button
+            id="button"
+            class="p-6 drop-shadow-lg bg-white text-[#191919] uppercase font-medium text-xl font-sans rounded-lg"
+          >
+            9
+          </button>
+          <button
+            id="button"
+            class="p-6 drop-shadow-lg bg-gray-900 text-white uppercase font-medium text-xl font-sans rounded-lg"
+          >
+            /
+          </button>
+        </div>
+        <!-- ! Row 03 -->
+        <div class="grid grid-cols-4 gap-4">
+          <button
+            id="button"
+            class="p-6 drop-shadow-lg bg-white text-[#191919] uppercase font-medium text-xl font-sans rounded-lg"
+          >
+            4
+          </button>
+          <button
+            id="button"
+            class="p-6 drop-shadow-lg bg-white text-[#191919] uppercase font-medium text-xl font-sans rounded-lg"
+          >
+            5
+          </button>
+          <button
+            id="button"
+            class="p-6 drop-shadow-lg bg-white text-[#191919] uppercase font-medium text-xl font-sans rounded-lg"
+          >
+            6
+          </button>
+          <button
+            id="button"
+            class="p-6 drop-shadow-lg bg-gray-900 text-white uppercase font-medium text-xl font-sans rounded-lg"
+          >
+            *
+          </button>
+        </div>
+        <!-- ! Row 04 -->
+        <div class="grid grid-cols-4 gap-4">
+          <button
+            id="button"
+            class="p-6 drop-shadow-lg bg-white text-[#191919] uppercase font-medium text-xl font-sans rounded-lg"
+          >
+            1
+          </button>
+          <button
+            id="button"
+            class="p-6 drop-shadow-lg bg-white text-[#191919] uppercase font-medium text-xl font-sans rounded-lg"
+          >
+            2
+          </button>
+          <button
+            id="button"
+            class="p-6 drop-shadow-lg bg-white text-[#191919] uppercase font-medium text-xl font-sans rounded-lg"
+          >
+            3
+          </button>
+          <button
+            id="button"
+            class="p-6 drop-shadow-lg bg-gray-900 text-white uppercase font-medium text-xl font-sans rounded-lg"
+          >
+            -
+          </button>
+        </div>
+        <!-- ! Row 05 -->
+        <div class="grid grid-cols-4 gap-4">
+          <button
+            id="button"
+            class="p-6 drop-shadow-lg bg-white text-[#191919] uppercase font-medium text-xl font-sans rounded-lg"
+          >
+            0
+          </button>
+          <button
+            id="button"
+            class="p-6 drop-shadow-lg bg-white text-[#191919] uppercase font-medium text-3xl font-sans rounded-lg"
+          >
+            .
+          </button>
+          <button
+            class="p-6 drop-shadow-lg bg-gray-900 text-white uppercase font-medium text-2xl font-sans rounded-lg"
+          >
+            =
+          </button>
+          <button
+            id="button"
+            class="p-6 drop-shadow-lg bg-gray-900 text-white uppercase font-medium text-xl font-sans rounded-lg"
+          >
+            +
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
